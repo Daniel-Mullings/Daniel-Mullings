@@ -1,0 +1,22 @@
+{
+  "name": "daniel-mullings-1",
+  "version": "1.0.0",
+  "description": "<h2 align=\"center\">\r   Hey 👋, I'm Daniel Mullings\r   <div><img src=\"https://komarev.com/ghpvc/?username=daniel-mullings&label=Profile%20views&color=0e75b6&style=flat\" alt=\"daniel-mullings\"/></div>\r </h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Mullings/Daniel-Mullings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Mullings/Daniel-Mullings/issues"
+  },
+  "homepage": "https://github.com/Daniel-Mullings/Daniel-Mullings#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,48 @@
+//###   CUSTOM VARIABLES    ###
+
+//---Color System---
+//Grays
+$white: #F5F5F5;
+$gray-300: #D5D5D5;
+$gray-800: #333333;
+$gray-900: #222222;
+//Colours
+$blue: #007CED;
+
+//---Font System---
+$font-family-sans-serif: poppins,Helvetica,sans-serif;
+
+//---Theme System---
+//Dark Theme
+$dark: $gray-900;
+$light-dark: $gray-300;
+
+//---Asset Attributes---
+//!Global
+$accordion-padding-x: 2.5rem;
+$border-color: $gray-300;
+$border-width: 2px;
+
+//Cards
+$card-bg: $gray-800;
+$card-border-color: $gray-300;
+$card-border-radius: 10px;
+//Buttons
+$btn-border-radius: 50px;
+.btn-outline-primary{
+    color: $white !important;
+}
+
+//---Class Attributes---
+.h2{
+    margin-bottom: 2rem !important;
+}
+.nav-link{
+    margin-left: 1.5rem !important;
+}
+.text-bg-light-dark{
+    color: $light-dark;
+}
+
+//Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
