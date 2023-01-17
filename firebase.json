@@ -1,5 +1,12 @@
 {
   "hosting": {
+    "redirects": [
+      {
+          "source": "/",
+          "destination": "/daniel_mullings_portfolio_website/html/homepage.html",
+          "type": 301
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
