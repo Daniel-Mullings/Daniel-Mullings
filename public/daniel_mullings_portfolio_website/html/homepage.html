@@ -3,45 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/homepage.css" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous">
+  </script>
+
     <link href="../css/main.min.css" rel="stylesheet">
+    <link href="../css/homepage.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <title>Daniel Mullings | Personal Portfolio | Home</title>
+    <link rel="icon" type="image/x-icon" href="../assets/global/website-logo-plain.ico">
+    <title>Daniel Mullings | About Me</title>
   </head>
   <body class="bd-example bg-dark text-bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark stick-top p-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Daniel Mullings</a>
+        <a class="navbar-brand" href="homepage.html">
+          <img src="../assets/global/website-logo-plain.png" style="max-height: 50px; margin-right: 0.5rem;">
+          <b>Daniel</b> Mullings
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><b>Navigation Menu</b></h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link active fw-bold" aria-current="page" href="#">About Me</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="../../404.html">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="../../404.html">Resume</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Project Portfolio
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item text-center" href="#">Tarkov Discord Chatbot</a></li>
-                  <li><a class="dropdown-item text-center" href="#">The Oregon Trail</a></li>
-                  <li><a class="dropdown-item text-center" href="#">Intelligent Agent</a></li>
-                  <li><a class="dropdown-item text-center" href="#">Big Data Programming Project</a></li>
-                  <li><a class="dropdown-item text-center" href="#">The Coventry Charity Store</a></li>
+                  <li><a class="dropdown-item text-center" href="../../404.html">Tarkov Discord Chatbot</a></li>
+                  <li><a class="dropdown-item text-center" href="../../404.html">The Oregon Trail</a></li>
+                  <li><a class="dropdown-item text-center" href="../../404.html">Intelligent Agent</a></li>
+                  <li><a class="dropdown-item text-center" href="../../404.html">Big Data Programming Project</a></li>
+                  <li><a class="dropdown-item text-center" href="../../404.html">The Coventry Charity Store</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="../../404.html">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" target="_blank" href="https://github.com/Daniel-Mullings">GitHub</a>
@@ -53,20 +62,22 @@
     </nav>
     
     <!--About Me-->
-    <div class="container px-4">
-      <div class="d-flex flex-wrap justify-content-center about-me">
-        <div class="flex-fill col-sm-12 col-md-6 col-lg-4 p-3">
-          <img src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" style="max-width: 100%;" class="border mx-auto d-block rounded-circle border border-warning float-start">
+    <div class="container px-4 about-me-section">
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="flex-fill col-sm-12 col-md-6 col-lg-3 mb-3 about-me-section-img-col">
+          <img src="../assets/homepage/about_me_photo.jpeg" class="border border-5 mx-auto d-block rounded-circle border border-light float-start about-me-img">
         </div>
-        <div class="flex-fill col-sm-12 col-md-6 col-lg-8 p-3 align-self-center">
+        <div class="flex-fill col-sm-12 col-md-6 col-lg-7 align-self-center about-me-section-text-col">
           <h6>Computer Scientist</h6>
           <h1 class="fw-bolder">Daniel Mullings</h1>
-          <p class="text-bg-light-dark">Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, 
-            odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a 
-            placerat sapien pretium eu.
-          </p>
-          <button type="button" class="btn btn-outline-primary">Download Resume</button>
-          <button type="button" class="btn btn-outline-light">Contact</button>
+          <p>
+            Hello 👋, I am a Second-Year BSc Computer Science student at Coventry University, on track to attain a First Class Honours, 
+            I am passionate about technology and software development, and I am also keen to develop my knowledge in the area 
+            of Cyber Security. The purpose of this portfolio is to showcase my projects and experience
+            <p><b><i>Currently Seeking Industrial Placement</i></b></p>
+            </p>
+            <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="../assets/homepage/Daniel Mullings - Resume.pdf" target="_blank">View Resume</a>
+            <a type="button" class="btn btn-outline-light mb-3 px-4 py-2" href="mailto:Daniel-Mullings01@outlook.com">Email Me</a>
         </div>
       </div>
     </div>
@@ -82,29 +93,30 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <div class="skills-section d-flex">
-              <div class="skills-section-img-column">
-                <img src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" class="skills-section-img">
+            <div class="skills-section-text-col d-flex m-0">
+              <div class="skills-section-img-col">
+                <img src="../assets/homepage/coding-icon.png" class="skills-section-img">
               </div>
               <div>
                 <h3 class="fw-bold fs-5">Software Development</h3>
                 <p class="text-bg-light-dark">
-                  Lorem ipsum dolor sit amet. Sit corrupti magni ut nobis soluta vel expedita eius 
-                  sit nihil iste rem aperiam exercitationem hic eveniet natus sed quia voluptatem.
-                </p>
+                  Experience using C++, C# and Python working on multiple programs, both independently 
+                  and collaboratively, such as Calculators, a Hangman Game and a Discord Chatbot. Website 
+                  development experience using HTML and CSS  with the Bootstrap framework.
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="skills-section d-flex">
-              <div class="skills-section-img-column">
-                <img src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" class="skills-section-img">
+            <div class="skills-section-text-col d-flex m-0">
+              <div class="skills-section-img-col">
+                <img src="../assets/homepage/project-management-icon.png" class="skills-section-img">
               </div>
               <div>
                 <h3 class="fw-bold fs-5">Project Management</h3>
                 <p class="text-bg-light-dark">
-                  Lorem ipsum dolor sit amet. Sit corrupti magni ut nobis soluta vel expedita eius 
-                  sit nihil iste rem aperiam exercitationem hic eveniet natus sed quia voluptatem.
+                  2+ Years of experience managing various projects throughout my academic career, utilising
+                   the Agile principles of incremental development, alongside tools such as Azure DevOps to 
+                   catalogue, delegate and track the development progress of tasks.
                 </p>
               </div>
             </div>
@@ -112,29 +124,31 @@
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <div class="skills-section d-flex">
-              <div class="skills-section-img-column">
-                <img src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" class="skills-section-img">
+            <div class="skills-section-text-col d-flex m-0">
+              <div class="skills-section-img-col">
+                <img src="../assets/homepage/technical-support-icon.png" class="skills-section-img">
               </div>
               <div>
                 <h3 class="fw-bold fs-5">IT Technical Support</h3>
                 <p class="text-bg-light-dark">
-                  Lorem ipsum dolor sit amet. Sit corrupti magni ut nobis soluta vel expedita eius 
-                  sit nihil iste rem aperiam exercitationem hic eveniet natus sed quia voluptatem.
+                  Volunteering Technical Support to my parents' department at Warwick University; expediating 
+                  student queries. Alongside repairing and maintaining laptops outside of ITS's support sphere, 
+                  performing Fault Diagnosis, System Restores, OS Installation and Updates
                 </p>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="skills-section d-flex">
-              <div class="skills-section-img-column">
-                <img src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" class="skills-section-img"">
+            <div class="skills-section-text-col d-flex m-0">
+              <div class="skills-section-img-col">
+                <img src="../assets/homepage/processor-icon.png" class="skills-section-img">
               </div>
               <div>
                 <h3 class="fw-bold fs-5">Computer Hardware and Networking</h3>
                 <p class="text-bg-light-dark">
-                  Lorem ipsum dolor sit amet. Sit corrupti magni ut nobis soluta vel expedita eius 
-                  sit nihil iste rem aperiam exercitationem hic eveniet natus sed quia voluptatem.
+                  I have an in-depth understanding of the functions of computer hardware and practical experience, 
+                  through building and troubleshooting multiple computer systems. I possess a 
+                  strong theoretical understanding of networking
                 </p>
               </div>
             </div>
@@ -143,57 +157,97 @@
       </div>
     </div>
 
-    <!--Section 2-->
+    <!--Technologies-->
+    <!--Section Implemented using: https://www.programmingbasic.com/horizontal-scrolling-div-with-arrows-->
     <div class="container px-4">
+
       <!--Section Header-->
       <div class="container">
-        <h2 class="fw-bold fs-4 h2">Insights</h2>
+        <h2 class="fw-bold fs-4 h2">Technologies</h2>
       </div>
 
       <!--Section Body-->
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3 pb-4">
-            <div class="card ">
-              <div class="card-body py-4 px-5">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="rounded mx-auto d-block pb-3" style="max-width: 50px;" alt="...">
-                <h3 class="fw-bold fs-6 text-center">Programming Languages Learnt</h3>
-                <p class="fs-5 text-center">Python, C#, C++</p>
-              </div>
+        <div class="technologies-section">
+          <button class="technologies-section-button technologies-section-button-left" onclick="leftScroll()">
+            <i class="fas fa-angle-double-left"></i>
+          </button>
+          <div class="technologies-section-scroll-all-img-container">
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/cplusplus-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/csharp-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/python-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/unity-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/html5-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/css3-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/bootstrap-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/mysql-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/firebase-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/azure-devops-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/github-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/matlab-plain.png">
+            </div>
+            <div class="technologies-section-img-container">
+              <img class="technologies-section-img" src="../assets/homepage/linux-plain.png">
             </div>
           </div>
-          <div class="col-sm-3 pb-4">
-            <div class="card">
-              <div class="card-body py-4 px-5">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="rounded mx-auto d-block pb-3" style="max-width: 50px;" alt="...">
-                <h3 class="fw-bold fs-6 text-center">Group Projects Completed</h3>
-                <p class="fs-5 text-center">3</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 pb-4">
-            <div class="card">
-              <div class="card-body py-4 px-5">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="rounded mx-auto d-block pb-3" style="max-width: 50px;" alt="...">
-                <h3 class="fw-bold fs-6 text-center">Most Starbucks Consumed In A Day</h3>
-                <p class="fs-5 text-center">5</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 pb-4">
-            <div class="card">
-              <div class="card-body py-4 px-5">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="rounded mx-auto d-block pb-3" style="max-width: 50px;" alt="...">
-                <h3 class="fw-bold fs-6 text-center">Predicated Grade for BSc Computer Science</h3>
-                <p class="fs-5 text-center">First Class Honors</p>
-              </div>
-            </div>
-          </div>
+          <button class="technologies-section-button technologies-section-button-right" onclick="rightScroll()">
+            <i class="fas fa-angle-double-right"></i>
+          </button>
         </div>
+        <script>
+          function rightScroll() {
+            const left = document.querySelector(".technologies-section-scroll-all-img-container");
+            left.scrollBy(200, 0);
+          }
+          function leftScroll() {
+            const right = document.querySelector(".technologies-section-scroll-all-img-container");
+            right.scrollBy(-200, 0);
+          }
+        </script>
       </div>
     </div>
   </body>
-  
-
-  
+  <footer>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav justify-content-start">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/daniel-mullings-520734261">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/Daniel-Mullings">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:Daniel-Mullings01@outlook.com">Email</a>
+          </li>
+        </ul>
+        <div class="px-4">
+          <b>Created by:</b> Daniel Mullings
+        </div>
+      </div>
+    </nav>
+  </footer>
 </html>

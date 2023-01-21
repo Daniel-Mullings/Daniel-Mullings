@@ -3,38 +3,52 @@
 //---Color System---
 //Grays
 $white: #F5F5F5;
-$gray-300: #D5D5D5;
+$gray-100: #D5D5D5;
+$gray-300: #999999;
+$gray-700: #444444;
 $gray-800: #333333;
 $gray-900: #222222;
 //Colours
 $blue: #007CED;
 
-//---Font System---
-$font-family-sans-serif: poppins,Helvetica,sans-serif;
-
 //---Theme System---
 //Dark Theme
 $dark: $gray-900;
-$light-dark: $gray-300;
+$light-dark: $gray-100;
+
+//---Font System---
+$font-family-sans-serif: Helvetica,sans-serif;
 
 //---Asset Attributes---
 //!Global
-$accordion-padding-x: 2.5rem;
-$border-color: $gray-300;
-$border-width: 2px;
+$border-width: 2.5px;
 
-//Cards
-$card-bg: $gray-800;
+//Cards Style
+$card-bg: $dark;
 $card-border-color: $gray-300;
+$card-border-width: 5px;
 $card-border-radius: 10px;
-//Buttons
+//Buttons Style
 $btn-border-radius: 50px;
 .btn-outline-primary{
     color: $white !important;
 }
+//Dropdown Style
+$dropdown-dark-bg: $gray-800;
+$dropdown-dark-border-color: $gray-800;
+$dropdown-dark-link-hover-color: $light-dark;
+$dropdown-dark-link-hover-bg: $gray-800;
+$dropdown-dark-link-active-color: $light-dark;
+$dropdown-dark-link-active-bg: $gray-800;
+.dropdown:hover .dropdown-menu {
+    margin-top: 2px;
+    display: block;
+}
+
 
 //---Class Attributes---
 .h2{
+    margin-top: 1rem !important;
     margin-bottom: 2rem !important;
 }
 .nav-link{
@@ -43,6 +57,10 @@ $btn-border-radius: 50px;
 .text-bg-light-dark{
     color: $light-dark;
 }
-
+footer{
+    margin-top: 1rem;
+    background-color: $dark;
+    border-top: 2px solid $light-dark;
+}
 //Import Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

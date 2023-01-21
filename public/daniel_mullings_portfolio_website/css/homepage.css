@@ -1,10 +1,78 @@
-.skills-section{
+.about-me-section{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.about-me-section-img-col{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about-me-section-text-col{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about-me-img{
+    border-color: #444444 !important;
+    border-width: 20px !important;
+    max-width: 100%;
+}
+
+
+.skills-section-text-col{
     margin-bottom: 2rem;
+}
+.skills-section-img-col{
+    padding-right: 7.5%;
 }
 .skills-section-img{
     padding-top: 13%;
-    width: 50px;
+    width: 75px;
 }
-.skills-section-img-column{
-    padding-right: 7.5%;
+
+
+/*Section Implemented using: https://www.programmingbasic.com/horizontal-scrolling-div-with-arrows-->*/
+.technologies-section {
+    margin-bottom: 2rem;
+    padding: 0px 1.5%;
+    position: relative;
+}
+.technologies-section-button{
+    border-color: transparent;
+    background-color: transparent;
+    color: #F5F5F5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.technologies-section-button-left {
+    left: 0;
+}
+.technologies-section-button-right {
+    right: 0;
+}
+.technologies-section-scroll-all-img-container {
+    width: 100%;
+    max-height: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.technologies-section-scroll-all-img-container::-webkit-scrollbar {
+    height: 0px;
+    visibility: hidden;
+}
+.technologies-section-scroll-all-img-container::-webkit-scrollbar-thumb {
+    height: 0px;
+    visibility: hidden;
+}
+.technologies-section-img-container {
+    margin-left: 2.5rem;
+}
+.technologies-section-img {
+    height: 100%;
+    overflow-x: hidden;
+    object-fit: cover;
+    object-position: center;
 }
