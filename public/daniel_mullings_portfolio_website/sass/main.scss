@@ -41,6 +41,7 @@ $dropdown-dark-link-hover-bg: $gray-800;
 $dropdown-dark-link-active-color: $light-dark;
 $dropdown-dark-link-active-bg: $gray-800;
 .dropdown:hover .dropdown-menu {
+    margin-top: 2px;
     display: block;
 }
 
