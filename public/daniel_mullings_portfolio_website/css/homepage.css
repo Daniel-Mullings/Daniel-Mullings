@@ -10,7 +10,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.about-me-img{
+.about-me-section-img{
     border-color: #444444 !important;
     border-width: 20px !important;
     max-width: 100%;
@@ -29,7 +29,7 @@
 }
 
 
-/*Section Implemented using: https://www.programmingbasic.com/horizontal-scrolling-div-with-arrows-->*/
+/*Section Implemented Using: https://www.programmingbasic.com/horizontal-scrolling-div-with-arrows-->*/
 .technologies-section {
     margin-bottom: 2rem;
     padding: 0px 1.5%;

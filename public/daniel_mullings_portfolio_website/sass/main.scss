@@ -57,6 +57,9 @@ $dropdown-dark-link-active-bg: $gray-800;
 .text-bg-light-dark{
     color: $light-dark;
 }
+html {
+    scroll-behavior: smooth;
+}
 footer{
     margin-top: 1rem;
     background-color: $dark;
