@@ -10,6 +10,7 @@ $gray-800: #333333;
 $gray-900: #222222;
 //Colours
 $blue: #007CED;
+$yellow: #B19C00 ;
 
 //---Theme System---
 //Dark Theme
@@ -25,9 +26,13 @@ $border-width: 2.5px;
 
 //Cards Style
 $card-bg: $dark;
-$card-border-color: $gray-300;
+$card-border-color: $gray-700;
 $card-border-width: 5px;
 $card-border-radius: 10px;
+.card{
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
 //Buttons Style
 $btn-border-radius: 50px;
 .btn-outline-primary{
@@ -40,6 +45,7 @@ $dropdown-dark-link-hover-color: $light-dark;
 $dropdown-dark-link-hover-bg: $gray-800;
 $dropdown-dark-link-active-color: $light-dark;
 $dropdown-dark-link-active-bg: $gray-800;
+$dropdown-dark-divider-bg: $gray-300;
 .dropdown:hover .dropdown-menu {
     margin-top: 2px;
     display: block;
@@ -65,5 +71,27 @@ footer{
     background-color: $dark;
     border-top: 2px solid $light-dark;
 }
+
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 9.5%;
+    right: 7.55%;
+    border: none;
+    outline: 2px solid #D5D5D5;
+    z-index: 999;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 100%;
+}
+#scrollToTopBtn:hover {
+    background-color: #444444;
+}
+.scrollToTopBtnImg{
+    max-height: 25px;
+}
+
+
 //Import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -22,7 +22,7 @@
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><b>Daniel</b> Mullings</h5>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><b>Navigation Menu</b></h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -37,18 +37,18 @@
                 <a class="nav-link active fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Project Portfolio
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#the_hangman_game">The Hangman Game</a></li>
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#the_coventry_charity_store">The Coventry Charity Store</a></li>
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#personal_portfolio">Personal Portfolio</a></li>
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#big_data_programming_project">Big Data Programming Project</a></li>
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#intelligent_agent">Intelligent Agent</a></li>
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#tarkov_discord_chatbot">Tarkov Discord Chatbot</a></li>
-                  <li><a class="dropdown-item text-center" href="project_portfolio.html#the_oregon_trail">The Oregon Trail</a></li>
+                <ul class="dropdown-menu dropdown-menu-dark p-3">
+                  <li><a class="dropdown-item" href="project_portfolio.html#the_hangman_game">The Hangman Game</a></li>
+                  <li><a class="dropdown-item" href="project_portfolio.html#the_coventry_charity_store">The Coventry Charity Store</a></li>
+                  <li><a class="dropdown-item" href="project_portfolio.html#personal_portfolio">Personal Portfolio</a></li>
+                  <li><a class="dropdown-item" href="project_portfolio.html#big_data_programming_project">Big Data Programming Project</a></li>
+                  <li><a class="dropdown-item" href="project_portfolio.html#intelligent_agent">Intelligent Agent</a></li>
+                  <div class="dropdown-divider"></div>
+                  <li><a class="dropdown-item" href="project_portfolio.html#tarkov_discord_chatbot">Tarkov Discord Chatbot</a></li>
+                  <li><a class="dropdown-item" href="project_portfolio.html#the_oregon_trail">The Oregon Trail</a></li>
+                  <div class="dropdown-divider"></div>
+                  <li><a class="dropdown-item" href="project_portfolio.html#personal_system_build">Personal System Build</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../404.html">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" target="_blank" href="https://github.com/Daniel-Mullings">GitHub</a>
@@ -59,6 +59,35 @@
       </div>
     </nav>
     
+    <!--Scroll To Top Button-->
+    <!--Feature Implemented using: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <div>
+      <button onclick="topFunction()" id="scrollToTopBtn">
+        <img src="../assets/global/scroll-to-top.png" class="scrollToTopBtnImg">
+      </button>
+      <script>
+      // Get the button
+      let mybutton = document.getElementById("scrollToTopBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    </div>
+
     <!--Project: The Hangman Hame-->
     <div class="project-section" id="the_hangman_game">
       <!--Project Information-->
@@ -77,7 +106,10 @@
               <i><b>NOTICE: </b>The original Source Code/Files are no longer accessiable. The final project can be viewed via a downloadable executable (<b>.exe</b>)</i>
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">C#, Unity</span></div>
+              <div>
+                <b>Developed Using: </b>
+                <span class="text-bg-light-dark">C#, Unity</span>
+              </div>
             </p>
             <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="https://1drv.ms/u/s!AuXc2C8IZUUNyTdhFmlHxCqGTvU4?e=IKX6Li" target="_blank">Download Executable</a>
           </div>
@@ -96,12 +128,40 @@
       <div class="container px-4 project-gallery-section">
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/the_hangman_game-in_game-img.PNG" class="rounded project-gallery-section-img"/>
-            <img src="../assets/project_portfolio/the_hangman_game-settings-img.PNG" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_hangman_game-in_game-img.png">
+                <img src="../assets/project_portfolio/the_hangman_game-in_game-img.png" class="project-gallery-section-content-img">
+              </a>
+                <div class="project-gallery-section-content-text">
+                Scene Displayed whilst playing The Hangman Game, Filling-In correct characters, Generating the Hangman for incorrect words and Disabling Characters Buttons as they are selected
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_hangman_game-settings-img.png">
+                <img src="../assets/project_portfolio/the_hangman_game-settings-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Persistent In-game Settings for Difficulty, Word Topic and Audio Channels, Implemented using JSON files
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/the_hangman_game-you_win-img.PNG" class="rounded project-gallery-section-img"/>
-            <img src="../assets/project_portfolio/the_hangman_game-help-img.PNG" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_hangman_game-you_win-img.png">
+                <img src="../assets/project_portfolio/the_hangman_game-you_win-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Scene Displayed upon Winning (<i>Or Losing</i>) The Hangman Game, enabling Players to Replay, go to the Main Menu or Close the program
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_hangman_game-help-img.png">
+                <img src="../assets/project_portfolio/the_hangman_game-help-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Help Window, Provides a How-To for playing The Hangman Game
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -122,8 +182,13 @@
               devices/viewports.
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">HTML, CSS, Bootstrap 3, Google Maps API</span></div>
-              <div><b>Hosted Using: </b> <span class="text-bg-light-dark">Google Firebase, Namecheap <i>(Domain Registration Expired)</i></span></div>
+              <div>
+                <b>Developed Using: </b>
+                <span class="text-bg-light-dark">HTML, CSS, Bootstrap 3, Google Maps API</span>
+              </div>
+              <div><b>Hosted Using: </b> 
+                <span class="text-bg-light-dark">Google Firebase, Namecheap <i>(Domain Registration Expired)</i></span>
+              </div>
             </p>
             <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="https://github.com/Daniel-Mullings/The-Coventry-Charity-Store" target="_blank">View GitHub Repository</a>
             <a type="button" class="btn btn-outline-light mb-3 px-4 py-2" target="_blank" href="https://daniel-mullings.github.io/The-Coventry-Charity-Store/Homepage.html">View Website</a>
@@ -135,12 +200,40 @@
       <div class="container px-4 project-gallery-section">
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/the_coventry_charity_store-homepage-img.PNG" class="rounded project-gallery-section-img"/>
-            <img src="../assets/project_portfolio/the_coventry_charity_store-news_article-img.PNG" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_coventry_charity_store-homepage-img.png">
+                <img src="../assets/project_portfolio/the_coventry_charity_store-homepage-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Homepage of Charity Store w/ ‘Donate Now’ button, Navigation Bar and site-wide Viewport Scaling capability
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_coventry_charity_store-news_article-img.png">
+                <img src="../assets/project_portfolio/the_coventry_charity_store-news_article-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                News Article, Responsible for Detailing various Contributions and Impacts of the Charity Store
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/the_coventry_charity_store-support_us-img.PNG" class="rounded project-gallery-section-img"/>
-            <img src="../assets/project_portfolio/the_coventry_charity_store-contact_form-img.PNG" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_coventry_charity_store-support_us-img.png">
+                <img src="../assets/project_portfolio/the_coventry_charity_store-support_us-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Information on how to Support Charity Store with location details via Google Maps API
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_coventry_charity_store-contact_form-img.png">
+                <img src="../assets/project_portfolio/the_coventry_charity_store-contact_form-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Contact Form w/ Field Validation
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -161,8 +254,14 @@
               employment history, supplemented with links to my resume to other relevant profiles
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">HTML, CSS, SCSS, Bootstrap 5</span></div>
-              <div><b>Hosted Using: </b> <span class="text-bg-light-dark">Google Firebase w/ GitHub Actions, Namecheap</span></div>
+              <div>
+                <b>Developed Using: </b>
+                <span class="text-bg-light-dark">HTML, CSS, SCSS, Bootstrap 5</span>
+              </div>
+              <div>
+                <b>Hosted Using: </b> 
+                <span class="text-bg-light-dark">Google Firebase w/ GitHub Actions, Namecheap</span>
+              </div>
             </p>
             <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="https://github.com/Daniel-Mullings/Daniel-Mullings" target="_blank">View GitHub Repository</a>
           </div>
@@ -183,8 +282,13 @@
                 soon as development on the project has begun. Additionally, development progress can be viewed in the associated <b>GitHub</b> repo</i>
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">N/A</span></div>
-              <div><b>Hosted Using: </b> <span class="text-bg-light-dark">N/A</span></div>
+              <div>
+                <b>Developed Using: </b>
+                <span class="text-bg-light-dark">N/A</span>
+              </div>
+              <div><b>Hosted Using: </b> 
+                <span class="text-bg-light-dark">N/A</span>
+              </div>
             </p>
             <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="https://github.com/Daniel-Mullings/Big-Data-Programming-Project" target="_blank">View GitHub Repository</a>
           </div>
@@ -206,7 +310,10 @@
               Remember and Incorporate Previous Information from the User and Vary Responses such as “Hello” and “Hi” or “Well Done” and “Excellent”
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">Python, NLTK (Natural Language Toolkit)</span></div>
+              <div>
+                <b>Developed Using: </b>
+                <span class="text-bg-light-dark">Python, NLTK (Natural Language Toolkit)</span>
+              </div>
             </p>
             <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="https://github.com/Daniel-Mullings/Intelligent-Agent" target="_blank">View GitHub Repository</a>
           </div>
@@ -225,10 +332,24 @@
       <div class="container px-4 project-gallery-section">
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/intelligent_agent-nltk_install-img.png" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/intelligent_agent-nltk_install-img.png">
+                <img src="../assets/project_portfolio/intelligent_agent-nltk_install-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Installing NLTK to Identify keywords through Synonym Analysis and Respond with Unique Words
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/intelligent_agent-conversation-img.png" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/intelligent_agent-conversation-img.png">
+                <img src="../assets/project_portfolio/intelligent_agent-conversation-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Testing the Intelligent Agents' response to Relevant Queries, it's Unique Responses and its ability to remember User Preferences
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -257,8 +378,12 @@
               their development progress to ensure the project was on track to meet the deadline, whilst maintaining team motivation and direction
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">Python, Tarkov Market API, Discord API</span></div>
-              <div><b>Hosted Using: </b> <span class="text-bg-light-dark">Discord</span></div>
+              <div><b>Developed Using: </b>
+                <span class="text-bg-light-dark">Python, Tarkov Market API, Discord API</span>
+              </div>
+              <div><b>Hosted Using: </b>
+                <span class="text-bg-light-dark">Discord</span>
+              </div>
               <div><b>Personal File Contributions: </b>
                 <span class="text-bg-light-dark">
                   <a target="_blank" class="link-light" href="https://github.com/Daniel-Mullings/Tarkov-Discord-Chatbot/blob/master/api_market_handler.py">api_market_handler.py</a> & 
@@ -275,11 +400,32 @@
       <div class="container px-4 project-gallery-section">
         <div class="row">
           <div class="col-lg-6">
-            <img src="..//assets/project_portfolio/tarkov_discord_chatbot-discord_conversation-img.png" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/tarkov_discord_chatbot-discord_conversation-img.png">
+                <img src="../assets/project_portfolio/tarkov_discord_chatbot-discord_conversation-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Testing the Discord Chatbot’s Interpretation and Response to Messages
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/tarkov_discord_chatbot-terminal-img.png" class="rounded project-gallery-section-img"/>
-            <img src="../assets/project_portfolio/tarkov_discord_chatbot-devops-img.png" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/tarkov_discord_chatbot-terminal-img.png">
+                <img src="../assets/project_portfolio/tarkov_discord_chatbot-terminal-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Discord Chatbot Running in Python Terminal which Connects to the Discord and Tarkov Market API’s, enabling interaction via Discord
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/tarkov_discord_chatbot-devops-img.png">
+                <img src="../assets/project_portfolio/tarkov_discord_chatbot-devops-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Using Azure DevOps to Catalogue Product Backlog Items, Identify their Difficulty and Delegate Responsibility
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -305,7 +451,9 @@
               could then be rendered and display users' scores and details, sorted via any field, utilising SQL Queries.
             </p>
             <p class="text-bg-light-dark">
-              <div><b>Developed Using: </b><span class="text-bg-light-dark">C++, SQL</span></div>
+              <div><b>Developed Using: </b>
+                <span class="text-bg-light-dark">C++, SQL</span>
+              </div>
               <div><b>Personal File Contributions: </b>
                 <span class="text-bg-light-dark">
                   <a target="_blank" class="link-light" href="https://github.com/Daniel-Mullings/The-Oregon-Trail/blob/master/TheOregonTrail/TheOregonTrail_LeaderboardHandler.cpp">TheOregonTrail_LeaderboardHandler.cpp</a> & 
@@ -322,10 +470,115 @@
       <div class="container px-4 project-gallery-section">
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/the_oregon_trail-user_detail_entry-img.png" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_oregon_trail-user_detail_entry-img.png">
+                <img src="../assets/project_portfolio/the_oregon_trail-user_detail_entry-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Testing the Leaderboard w/ Player Username Entry; Validating and Processing the Input. Setting Random Username if an Invalid Username is Entered and Maximum Number of Attempts Reached
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
-            <img src="../assets/project_portfolio/the_oregon_trail-leaderboard_render-img.png" class="rounded project-gallery-section-img"/>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/the_oregon_trail-leaderboard_render-img.png">
+                <img src="../assets/project_portfolio/the_oregon_trail-leaderboard_render-img.png" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Testing the Leaderboard, Ensuring it Renders According to Width of Field Values and is Sorted as Specified (<i>By Score</i>)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Project: Personal System Build-->
+    <div class="project-section" id="personal_system_build">
+      <!--Project Information-->
+      <div class="container px-4 project-info-section">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="flex-fill align-self-center about-me-section-text-col">
+            <h1 class="fw-bolder">Personal System Build</h1>
+            <p><span class="badge text-bg-warning text-white fs-5">Personal Project</span></p>
+            <p class="text-bg-light-dark">
+              At a young age, I would disassemble and reassemble various PCs which we had throughout the house when I was growing up, 
+              as I was curious to see how they work. Once I got my first job I configured and built my first gaming PC from scratch. Since then, 
+              I have built multiple systems
+            </p>
+            <p class="text-bg-light-dark">
+              The gaming PC I currently have, I also configured and built from scratch. I use it primarily for my University studies and to work 
+              on my programming skills. However, I also enjoy playing Flight Simulation and Space Exploration games during my free time
+            </p>
+            <p class="text-bg-light-dark">
+              <div>
+                <b>System Specifications:</b>
+                <span class="text-bg-light-dark">
+                  AMD Ryzen 7 2700X (<i>Processor</i>), Corsair H100i RGB (<i>AIO Cooler</i>), MSI B450 Mortar mATX Corsair (<i>Motherboard</i>), 
+                  Corsair Vengeance RGB Pro 16GB (<i>Memory</i>), MSI Gaming Z RTX 2070 8GB (<i>Graphics Card</i>), 
+                  2x WD Blue 1TB HDD's, 1x Kingston A400 120GB SSD, 1x Corsair MP510 480GB NVMe (<i>Storage</i>), Corsair Crystal 280X mATX (<i>Case</i>)
+                </span>
+              </div>
+            </p>
+            <a type="button" class="btn btn-outline-primary align-top me-3 mb-3 px-4 py-2" href="https://uk.pcpartpicker.com/user/D_Mullings/saved/#view=87LrGX" target="_blank">View Full System Specifications</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Gallery -->
+      <div class="container px-4 project-gallery-section">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/personal_system_build-desk_setup_1-img.jpeg">
+                <img src="../assets/project_portfolio/personal_system_build-desk_setup_1-img.jpeg" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Completed Personal Workspace w/ Custom System Build
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/personal_system_build-pc_setup_1-img.jpeg">
+                <img src="../assets/project_portfolio/personal_system_build-pc_setup_1-img.jpeg" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Completed Custom System Build, Before Final Setup
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/personal_system_build-pc_components_1-img.jpeg">
+                <img src="../assets/project_portfolio/personal_system_build-pc_components_1-img.jpeg" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Collection of Hardware and Peripherals for Custom System Build
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/personal_system_build-desk_setup_2-img.jpeg">
+                <img src="../assets/project_portfolio/personal_system_build-desk_setup_2-img.jpeg" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Personal Workspace Configured w/ X56 HOTAS for Flight Sim Game (<i>DCS</i>)
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/personal_system_build-pc_setup_2-img.jpeg">
+                <img src="../assets/project_portfolio/personal_system_build-pc_setup_2-img.jpeg" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                Completed Custom System Build, After Final Setup
+              </div>
+            </div>
+            <div class="project-gallery-section-content">
+              <a target="_blank" href="../assets/project_portfolio/personal_system_build-pc_components_2-img.jpeg">
+                <img src="../assets/project_portfolio/personal_system_build-pc_components_2-img.jpeg" class="project-gallery-section-content-img">
+              </a>
+              <div class="project-gallery-section-content-text">
+                MSI Gaming Z RTX 2070 8GB, Before Installation
+              </div>
+            </div>
           </div>
         </div>
       </div>

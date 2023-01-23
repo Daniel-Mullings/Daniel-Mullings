@@ -22,18 +22,32 @@
 }
 
 
-.project-gallery-section-img{
-    border: 5px solid #444444;;
-    margin-bottom: 1.5rem;
+.project-gallery-section-content{
     width: 100%;
+    position: relative;
+    border: 5px solid #444444;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
 }
-.project-gallery-section-img:hover{
+.project-gallery-section-content:hover{
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    z-index: 999;
 }
-.project-gallery-section-vid > video{
+.project-gallery-section-content-img{
     width: 100%;
-    margin-bottom: 1rem;
-    float:left;
+}
+.project-gallery-section-content-text{
+    position: absolute;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    bottom: 0rem;
+    width: 100%;
+    color: #D5D5D5;
+    background-color: #171717CC;
+    text-align: left;
+
 }
