@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on a [Big Data Programming Project](https://github.com/Daniel-Mullings/Big-Data-Programming-Project)
 - 🌱 I’m currently learning **Advanced Algorithms, Operating Systems and Security, Data Science**
-- 👨‍💻 All of my projects will be available at [dmulllings.dev](https://www.dmullings.dev/) soon, website development in progress
+- 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://www.dmullings.dev/), WIP
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
 - 📄 Know about my experiences [<a href="https://1drv.ms/w/s!AuXc2C8IZUUNyH1tBT6eQIgoDnFX?e=JO9Cib">View Resume</a>]
 - ⚡ Fun fact **...Pending**
