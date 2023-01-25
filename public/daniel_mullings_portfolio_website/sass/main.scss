@@ -76,16 +76,20 @@ footer{
 #scrollToTopBtn {
     display: none;
     position: fixed;
+    padding: 10px;
     bottom: 9.5%;
     right: 7.55%;
     border: none;
-    outline: 2px solid #D5D5D5;
-    z-index: 999;
     background-color: #222222;
-    padding: 10px;
+    outline: 2px solid #D5D5D5;
     border-radius: 100%;
+    z-index: 999;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
-#scrollToTopBtn:hover {
+#scrollToTopBtn:hover::before {
     background-color: #444444;
 }
 .scrollToTopBtnImg{
