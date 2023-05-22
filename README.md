@@ -4,7 +4,7 @@
 </h2>
 
 <h4>
-<div align="center">BSc Computer Science Student at Coventry University, Second Year</div>
+<div align="center">BSc Computer Science Student at Coventry University, Year in Industry</div>
 <div align="center">Currently on Industrial Placement at Triumph Motorcycles (Starting: 26JUN23)</div>
 </h4>
 
