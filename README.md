@@ -10,9 +10,9 @@
 
 <h4 align="left">Some Information:</h4>
 
-- 🔭 I’m currently working on a [Big Data Programming Project](https://github.com/Daniel-Mullings/Big-Data-Programming-Project)
+- 🔭 I’m currently working on [Nothing]()
 - 🌱 I’m currently learning **Advanced Algorithms, Operating Systems and Security, Data Science**
-- 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://www.dmullings.dev/), WIP
+- 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://www.dmullings.dev/)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
 - 📄 Know about my experiences [<a href="https://1drv.ms/w/s!AuXc2C8IZUUNyH1tBT6eQIgoDnFX?e=JO9Cib">View Resume</a>]
 - ⚡ Fun fact **...Pending**
