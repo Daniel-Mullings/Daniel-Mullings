@@ -37,5 +37,4 @@
 <h4 align="left">Connect with me:</h4>
 <p align="left">
 <a href="https://www.linkedin.com/in/daniel-mullings-520734261/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/daniel-mullings-520734261/" height="30" width="40" /></a>
-<a href="https://discordapp.com/users/1063881708585373877/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discordapp.com/users/1063881708585373877/" height="30" width="40" /></a>
 </p>
