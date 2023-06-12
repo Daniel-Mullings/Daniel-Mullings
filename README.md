@@ -14,8 +14,8 @@
 - 🌱 I’m currently learning **Networking and Cybersecurity Fundamentals**
 - 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://www.dmullings.dev/)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
-<!-- Know about my experiences [<a href="https://1drv.ms/w/s!AuXc2C8IZUUNyH1tBT6eQIgoDnFX?e=JO9Cib">View Resume</a>] -->
 - ⚡ Fun fact **...Pending**
+<!-- Know about my experiences [<a href="https://1drv.ms/w/s!AuXc2C8IZUUNyH1tBT6eQIgoDnFX?e=JO9Cib">View Resume</a>] -->
 
 <h4 align="left">Languages and Tools:</h4>
 <p align="left">
