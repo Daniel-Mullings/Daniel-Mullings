@@ -10,7 +10,7 @@
 
 <h4 align="left">Some Information:</h4>
 
-- 🔭 I’m currently working on [Nothing] :)()
+- 🔭 I’m currently working on [Nothing]()
 - 🌱 I’m currently learning **Networking and Cybersecurity Fundamentals**
 - 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://www.dmullings.dev/)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
