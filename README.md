@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on [Triumph Support Utility](https://github.com/Daniel-Mullings/Triumph-Support-Utility)
 - 🌱 I’m currently learning **Networking and Cybersecurity Fundamentals**
-- 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://dmullings.dev/)
+- 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://dmullings.dev/daniel_mullings_portfolio_website/html/project_portfolio.html)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
 - ⚡ Fun fact **...Pending**
 <!-- Know about my experiences [<a href="https://1drv.ms/w/s!AuXc2C8IZUUNyH1tBT6eQIgoDnFX?e=JO9Cib">View Resume</a>] -->
