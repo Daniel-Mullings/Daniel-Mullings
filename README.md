@@ -10,7 +10,7 @@
 
 <h4 align="left">Some Information:</h4>
 
-- 🔭 I’m currently working on [Triumph Support Utility](https://github.com/Daniel-Mullings/Triumph-Support-Utility)
+- 🔭 I’m currently working on [Open Support Utility](https://github.com/Daniel-Mullings/Open-Support-Utility)
 - 🌱 I’m currently learning **Networking and Cybersecurity Fundamentals**
 - 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://dmullings.dev/)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
