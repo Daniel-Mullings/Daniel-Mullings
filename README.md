@@ -4,14 +4,13 @@
 </h2>
 
 <h4>
-<div align="center">BSc Computer Science Student at Coventry University, Year in Industry </div>
-<div align="center">Industrial Placement at Triumph Motorcycles</div>
+<div align="center">BSc Computer Science Student at Coventry University, Final Year</div>
 </h4>
 
 <h4 align="left">Some Information:</h4>
 
-- 🔭 I’m currently working on [Open Support Utility](https://github.com/Daniel-Mullings/Open-Support-Utility)
-- 🌱 I’m currently learning **Networking and Cybersecurity Fundamentals**
+- 🔭 I’m currently working on [Project Ember](https://github.com/Daniel-Mullings/Project-Ember)
+- 🌱 I’m currently (interested in) learning **Networking and Cybersecurity Fundamentals**
 - 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://dmullings.dev/)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
 - ⚡ Fun fact **...Pending**
