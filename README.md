@@ -9,7 +9,7 @@
 
 <h4 align="left">Some Information:</h4>
 
-- 🔭 I’m currently working on [Project Ember](https://github.com/Daniel-Mullings/Project-Ember)
+- 🔭 I’m currently working on [Project Ember](https://github.com/Daniel-Mullings/Project-Ember) and [Project Sentinel](https://github.com/Daniel-Mullings/Project-Sentinel)
 - 🌱 I’m currently (interested in) learning **Networking and Cybersecurity Fundamentals**
 - 👨‍💻 All of my projects are available to view at [dmulllings.dev](https://dmullings.dev/)
 - 📫 How to reach me **Daniel-Mullings01@outlook.com**
