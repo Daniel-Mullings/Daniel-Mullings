@@ -4,7 +4,7 @@
 </h2>
 
 <h4>
-<div align="center">BSc Computer Science Graduate of Coventry University Year</div>
+<div align="center">BSc Computer Science Graduate of Coventry University</div>
 </h4>
 
 <h4 align="left">Some Information:</h4>
